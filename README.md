@@ -108,12 +108,9 @@ No test module for now.But it will be added in the near future.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Display calculator**
-
-
-
-
-
+-  **Add calculator**
+-  **Add quote page**
+-  **Add homepage**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
