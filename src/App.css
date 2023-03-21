@@ -18,9 +18,11 @@
   grid-column: 1/5;
   font-size: 2em;
 }
-.calculator-button{
-    cursor: pointer;
+
+.calculator-button {
+  cursor: pointer;
 }
+
 .calculator-button:nth-child(18) {
   grid-column: 1/3;
 }
