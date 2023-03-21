@@ -44,7 +44,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Set up**
+- **Display Calculator**
 
 
 
@@ -107,8 +107,7 @@ No test module for now.But it will be added in the near future.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
--  **Add calculator**
+-  **Add functionality to the Calculator**
 -  **Add quote page**
 -  **Add homepage**
 
