@@ -14,11 +14,13 @@
 }
 
 .calculator-input {
-  background-color: rgb(48, 163, 163);
+  background-color: rgb(143, 153, 153);
   grid-column: 1/5;
   font-size: 2em;
 }
-
+.calculator-button{
+    cursor: pointer;
+}
 .calculator-button:nth-child(18) {
   grid-column: 1/3;
 }
