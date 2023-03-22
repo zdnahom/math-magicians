@@ -1,8 +1,14 @@
+import { useState } from 'react';
 import CalculatorButton from './CalculatorButton';
 import calculate from '../logic/calculate';
-import operate from '../logic/operate';
 
 const Calculator = () => {
+  const [buttonData, setButtonData] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
   const buttonValues = [
     { id: 1, value: 'AC' },
     { id: 2, value: '+/-' },
@@ -24,20 +30,37 @@ const Calculator = () => {
     { id: 18, value: '.' },
     { id: 19, value: '=' },
   ];
+
+  const handleButtonClick = (buttonName) => {
+    setButtonData((prevState) => {
+      const calculatorData = calculate(prevState, buttonName);
+      return calculatorData;
+    });
+  };
+
+  const displayText = () => {
+    const next = buttonData.next || '';
+    const total = buttonData.total || '';
+    const operation = buttonData.operation || '';
+    return total + operation + next;
+  };
+
   const buttonElements = buttonValues.map((element) => (
     <CalculatorButton
       key={element.id}
       className="calculator-button"
       value={element.value}
+      handleButtonClick={handleButtonClick}
     />
   ));
+
   return (
     <section className="calculator">
       <input
-        dir="rtl"
-        type="number"
+        type="text"
         placeholder="0"
         className="calculator-input"
+        value={displayText()}
       />
       {buttonElements}
     </section>
