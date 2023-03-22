@@ -1,5 +1,6 @@
 import CalculatorButton from './CalculatorButton';
-
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 const Calculator = () => {
   const buttonValues = [
