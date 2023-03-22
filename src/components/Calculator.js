@@ -13,7 +13,7 @@ const Calculator = () => {
     { id: 1, value: 'AC' },
     { id: 2, value: '+/-' },
     { id: 3, value: '%' },
-    { id: 4, value: '/' },
+    { id: 4, value: '÷' },
     { id: 5, value: '7' },
     { id: 6, value: '8' },
     { id: 7, value: '9' },
