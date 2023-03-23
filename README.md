@@ -45,6 +45,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Display Calculator**
+- **Calculate Numbers**
 
 
 
@@ -107,7 +108,6 @@ No test module for now.But it will be added in the near future.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
--  **Add functionality to the Calculator**
 -  **Add quote page**
 -  **Add homepage**
 
