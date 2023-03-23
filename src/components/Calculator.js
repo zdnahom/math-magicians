@@ -61,6 +61,7 @@ const Calculator = () => {
         placeholder="0"
         className="calculator-input"
         value={displayText()}
+        readOnly
       />
       {buttonElements}
     </section>
