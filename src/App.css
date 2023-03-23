@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  gap:10%;
+  gap: 10%;
 }
 
 .calculator {
@@ -35,9 +35,11 @@
 .calculator-button:nth-child(20) {
   background-color: orange;
 }
-.quote{
+
+.quote {
   width: 45%;
 }
-.author{
+
+.author {
   font-weight: 700;
 }
