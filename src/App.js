@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <header className="header">
         <nav className="nav">
+          <span>Math Magicians</span>
           <ul className="navbar">
             <li className="nav-link"><Link to="/">Home</Link></li>
             <li className="nav-link"><Link to="/calculator">Calculator</Link></li>
