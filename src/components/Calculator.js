@@ -55,15 +55,19 @@ const Calculator = () => {
   ));
 
   return (
-    <section className="calculator">
-      <input
-        type="text"
-        placeholder="0"
-        className="calculator-input"
-        value={displayText()}
-        readOnly
-      />
-      {buttonElements}
+    <section className="calculator-container">
+      <p className="math-text">Lets do some math jutsu !</p>
+      <div className="calculator">
+        <input
+          type="text"
+          placeholder="0"
+          className="calculator-input"
+          value={displayText()}
+          readOnly
+        />
+        {buttonElements}
+      </div>
+
     </section>
   );
 };

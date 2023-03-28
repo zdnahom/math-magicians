@@ -27,11 +27,11 @@ const Quote = () => {
     };
     fetchQuote();
   }, [setQuote]);
-  if (hasError) return <div>Something went wrong!</div>;
   return (
     <section className="quote">
+      {hasError && <p className="error-message">Something went wrong!</p>}
       {isLoading ? (
-        <p>Loading...</p>
+        <p className="loading">Loading...</p>
       ) : (
         <p className="quote-text">
           {quote.quote}
