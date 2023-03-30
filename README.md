@@ -46,6 +46,7 @@
 
 - **Display Calculator**
 - **Calculate Numbers**
+- **Display random quote and its author**
 
 
 
@@ -108,8 +109,8 @@ No test module for now.But it will be added in the near future.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
--  **Add quote page**
--  **Add homepage**
+-  **Animation**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
