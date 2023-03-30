@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-No live demo for now.But it will be added in the near future.
+- [See live](https://math-magicians-dojo.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
